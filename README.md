@@ -1,3 +1,8 @@
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
 # spring-restful-api-inmemory
 This repository hosts a Spring Boot backend with a RESTful API, featuring Service, Repository, and Model layers. It uses ArrayList and Java objects for in-memory data storage, supporting XML/JSON formats. Testable via Postman with HTTP methods: GET, POST, PUT, DELETE.
 Spring Boot RESTful API Backend
