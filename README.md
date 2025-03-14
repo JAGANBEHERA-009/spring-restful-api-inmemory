@@ -46,7 +46,7 @@ Clone the Repository:
 
 bash
 Copy
-git clone https://github.com/your-username/spring-restful-api.git
+git clone https://github.com/JAGANBEHERA-009/spring-restful-api.git
 cd spring-restful-api
 Build the Project:
 
@@ -68,74 +68,146 @@ Example Requests
 1. Get All Data Items
 Method: GET
 
-URL: http://localhost:8080/api/data
+URL:[http://localhost:8080/jobPosts]
 
 Response:
 
 json
-Copy
 [
-  {
-    "id": 1,
-    "name": "Item 1",
-    "description": "This is item 1"
-  },
-  {
-    "id": 2,
-    "name": "Item 2",
-    "description": "This is item 2"
-  }
+    {
+        "postId": 1,
+        "postProfile": "Java Developer",
+        "postDesc": "Must have good experience in core Java and advanced Java",
+        "reqExperience": 2,
+        "postTechStack": [
+            "Core Java",
+            "J2EE",
+            "Spring Boot",
+            "Hibernate"
+        ]
+    },
+    {
+        "postId": 2,
+        "postProfile": "Frontend Developer",
+        "postDesc": "Experience in building responsive web applications using React",
+        "reqExperience": 3,
+        "postTechStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+        ]
+    },
+    {
+        "postId": 3,
+        "postProfile": "Data Scientist",
+        "postDesc": "Strong background in machine learning and data analysis",
+        "reqExperience": 4,
+        "postTechStack": [
+            "Python",
+            "Machine Learning",
+            "Data Analysis"
+        ]
+    },
+    {
+        "postId": 4,
+        "postProfile": "Network Engineer",
+        "postDesc": "Design and implement computer networks for efficient data communication",
+        "reqExperience": 5,
+        "postTechStack": [
+            "Networking",
+            "Cisco",
+            "Routing",
+            "Switching"
+        ]
+    },
+    {
+        "postId": 5,
+        "postProfile": "Mobile App Developer",
+        "postDesc": "Experience in mobile app development for iOS and Android",
+        "reqExperience": 3,
+        "postTechStack": [
+            "iOS Development",
+            "Android Development",
+            "Mobile App"
+        ]
+    }
 ]
 2. Create a New Data Item
 Method: POST
 
-URL: http://localhost:8080/api/data
+URL: [http://localhost:8080/jobPost]
 
 Body (JSON):
 
 json
-Copy
 {
-  "name": "New Item",
-  "description": "This is a new item"
+    "postId": 6,
+    "postProfile": " App Developer",
+    "postDesc": "Experience in mobile app development for iOS and Android",
+    "reqExperience": 9,
+    "postTechStack": [
+        "iOS Development",
+        "Android Development",
+        "Mobile App"
+    ]
 }
 Response:
 
 json
-Copy
 {
-  "id": 3,
-  "name": "New Item",
-  "description": "This is a new item"
+    "postId": 6,
+    "postProfile": " App Developer",
+    "postDesc": "Experience in mobile app development for iOS and Android",
+    "reqExperience": 9,
+    "postTechStack": [
+        "iOS Development",
+        "Android Development",
+        "Mobile App"
+    ]
 }
 3. Update a Data Item
 Method: PUT
 
-URL: http://localhost:8080/api/data/1
+URL:[http://localhost:8080/jobPost]
 
 Body (JSON):
 
 json
 Copy
 {
-  "name": "Updated Item",
-  "description": "This item has been updated"
+    "postId": 6,
+    "postProfile": "Mobile Developer",
+    "postDesc": "Experience in building responsive web applications using React",
+    "reqExperience": 8,
+    "postTechStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
+    ]
 }
 Response:
 
 json
-Copy
 {
-  "id": 1,
-  "name": "Updated Item",
-  "description": "This item has been updated"
+    "postId": 6,
+    "postProfile": "Mobile Developer",
+    "postDesc": "Experience in building responsive web applications using React",
+    "reqExperience": 8,
+    "postTechStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
+    ]
 }
 4. Delete a Data Item
 Method: DELETE
 
-URL: http://localhost:8080/api/data/1
+URL:[http://localhost:8080/jobPost/5]
 
-Response: 204 No Content
+Response:Deleted
 
 Testing with Postman
 Import the provided Postman Collection (if available) into Postman.
