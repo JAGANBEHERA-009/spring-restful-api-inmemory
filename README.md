@@ -46,7 +46,7 @@ Clone the Repository:
 
 bash
 Copy
-git clone https://github.com/JAGANBEHERA-009/spring-restful-api.git
+git clone [https://github.com/JAGANBEHERA-009/spring-restful-api-inmemory]
 cd spring-restful-api
 Build the Project:
 
