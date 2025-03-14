@@ -68,7 +68,7 @@ Example Requests
 1. Get All Data Items
 Method: GET
 
-URL:[http://localhost:8080/jobPosts]
+URL:  http://localhost:8080/jobPosts
 
 Response:
 
