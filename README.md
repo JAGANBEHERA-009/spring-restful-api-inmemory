@@ -230,7 +230,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Author
 [jagan Behera]
-[jaganbehera850@gmail.com]
+[https://github.com/JAGANBEHERA-009]
 GitHub Profile
 
 Feel free to contribute to the project by opening issues or submitting pull requests!
