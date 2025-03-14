@@ -136,7 +136,7 @@ json
 2. Create a New Data Item
 Method: POST
 
-URL: [http://localhost:8080/jobPost]
+URL:  http://localhost:8080/jobPost
 
 Body (JSON):
 
@@ -169,7 +169,7 @@ json
 3. Update a Data Item
 Method: PUT
 
-URL:[http://localhost:8080/jobPost]
+URL: http://localhost:8080/jobPost
 
 Body (JSON):
 
@@ -205,7 +205,7 @@ json
 4. Delete a Data Item
 Method: DELETE
 
-URL:[http://localhost:8080/jobPost/5]
+URL: http://localhost:8080/jobPost/5
 
 Response:Deleted
 
